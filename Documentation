@@ -1,2 +1,11 @@
 12/22/2016
 GitHub project cloned and began
+
+Installed:
+mySQL
+
+Files added:
+CompleteTask.php
+InsertTask.php
+DBScripts.sql
+dbConfig.php
