@@ -20,3 +20,5 @@ Files added:
     tododb
       ..DB files
   test.html
+
+Set up php for inserting a task, completing a task, and syncing

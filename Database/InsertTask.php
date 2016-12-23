@@ -2,8 +2,15 @@
 
   include dbConfig.php;
 
-  $sql = "SELECT * FROM tasks";
-  $result = mysqli_query($conn, $sql);
+  $sqlTest = "SELECT * FROM tasks";
+
+  $santitle = mysqli_real_escape_string($conn, _POST['title']);
+  $sanduedate = mysqli_real_escape_string($conn, _POST['du_date']);
+  $sanstatus = mysqli_real_escape_string($conn, _POST['status']);
+
+  $sql = "INSERT INTO task(title, due_date, status) VALUES('$santitle', '$sanduedate', '$sanstatus')";
+
+  $result = mysqli_query($conn, $sqlTest);
 
   if (mysqli_num_rows($result) > 0) {
     echo "<table border='1'>
