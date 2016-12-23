@@ -2,7 +2,8 @@ CREATE TABLE Tasks (
   tid INT AUTO_INCREMENT,
   title VARCHAR(100),
   due_date DATE,
-  status VARCHAR(1)
+  status VARCHAR(1),
+  PRIMARY KEY(tid)
 )
 engine=innodb;
 
@@ -11,7 +12,8 @@ CREATE TABLE Completed (
   title VARCHAR(100),
   due_date DATE,
   comp_date DATE,
-  status VARCHAR(1)
+  status VARCHAR(1),
+  PRIMARY KEY (tid)
 )
 engine=innodb;
 

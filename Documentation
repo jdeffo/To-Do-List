@@ -1,4 +1,4 @@
-12/22/2016
+12/21/2016
 GitHub project cloned and began
 
 Installed:
@@ -9,3 +9,14 @@ CompleteTask.php
 InsertTask.php
 DBScripts.sql
 dbConfig.php
+
+12/22/2016
+Created database, began connection, created tests
+
+Need to look into installing php properly
+
+Files added:
+  Database
+    tododb
+      ..DB files
+  test.html
