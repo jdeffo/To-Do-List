@@ -1,6 +1,6 @@
 <?php
 
-  include dbConfig.php;
+  include()'dbConfig.php');
 
   $sqlTest = "SELECT * FROM tasks";
 
