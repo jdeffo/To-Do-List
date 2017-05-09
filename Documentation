@@ -25,12 +25,20 @@ Set up php for inserting a task, completing a task, and syncing
 Working out testing problems
 
 BIG CHANGE:
-5/9/17
+5/8/17
 Wiped the project clean
 New plan:
     V1: Python, local application
         List stored as a .txt file
-    V2: Python calls the server, and reads the .txt file from there
-    V3: Windows GUI
+    V2: Windows GUI
+    V3: Python calls the server, and reads the .txt file from there
     V4: Online Edits
     V5: Mobile
+
+V1:
+    Step 1: Read To-Do-List from a .txt file and print the list
+        Format: Name | Due Date /n Name | Due Date /n ...
+
+5/9/17
+Added function for removing an item from the list
+Next: GUI?

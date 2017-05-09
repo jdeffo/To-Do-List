@@ -10,6 +10,7 @@ def listRead():
     print(todoList)
     listf.close()
 
+#write function
 def listWrite(item):
     listWr = open('list.txt', 'w')
     for line in todoList:
@@ -17,6 +18,19 @@ def listWrite(item):
     listWr.write(item)
     listWr.close()
 
+#remove function
+def remItem(item):
+    name = item.partition('|')[0]
+    listWr = open('list.txt', 'w')
+    for line in todoList:
+        if line.partition('|')[0] == name:
+            print("Removed task: " + name)
+        else:
+            listWr.write(line + '\n')
+    listWr.close()
+
 listRead()
-listWrite("Aye | Wednesday")
+#listWrite("Aye | Wednesday")
+#listRead()
+remItem('V1 | Friday')
 listRead()

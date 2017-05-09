@@ -1,2 +1,3 @@
+V1 | Friday
 Testing | Saturday
 Again | Sunday
