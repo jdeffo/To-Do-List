@@ -22,3 +22,15 @@ Files added:
   test.html
 
 Set up php for inserting a task, completing a task, and syncing
+Working out testing problems
+
+BIG CHANGE:
+5/9/17
+Wiped the project clean
+New plan:
+    V1: Python, local application
+        List stored as a .txt file
+    V2: Python calls the server, and reads the .txt file from there
+    V3: Windows GUI
+    V4: Online Edits
+    V5: Mobile
