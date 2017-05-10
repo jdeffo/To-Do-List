@@ -29,8 +29,15 @@ def remItem(item):
             listWr.write(line + '\n')
     listWr.close()
 
-listRead()
+#create list function
+def createList(name):
+    f = open(name, 'w')
+    f.write('')
+    f.close()
+
+#listRead()
 #listWrite("Aye | Wednesday")
 #listRead()
-remItem('V1 | Friday')
-listRead()
+#remItem('V1 | Friday')
+#listRead()
+#createList("1")
