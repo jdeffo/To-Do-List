@@ -3,7 +3,7 @@ todoList = []
 
 #read function
 def listRead():
-    print("File path: " + r'C:\Users\Deffo\Source\Repos\To-Do-List\list.txt')
+    print("File path: " + r'\Users\jeremydefossett\Source\Repos\To-Do-List\list.txt')
     global todoList
     with open("list.txt") as listf:
         todoList = [line.rstrip('\n') for line in listf]
