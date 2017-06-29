@@ -52,3 +52,8 @@ Set up Mac branch
 Set to track Mac branch
 
 Had to capitalize Tkinter for Mac
+
+6/28/17
+Back on this project
+Changed data structure to store date as well so that I can sort
+Next: Sorting, UI

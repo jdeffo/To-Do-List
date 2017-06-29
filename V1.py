@@ -17,6 +17,7 @@ def listWrite(item):
         listWr.write(line + "\n")
     listWr.write(item)
     listWr.close()
+    listRead()
 
 #remove function
 def remItem(item):
@@ -28,6 +29,7 @@ def remItem(item):
         else:
             listWr.write(line + '\n')
     listWr.close()
+    listRead()
 
 #create list function
 def createList(name):
@@ -35,9 +37,21 @@ def createList(name):
     f.write('')
     f.close()
 
-#listRead()
-#listWrite("Aye | Wednesday")
-#listRead()
-#remItem('V1 | Friday')
-#listRead()
+#Sort by ASC
+def sortASC():
+    #FINISH
+    listWr = open('list.txt', 'w')
+    listWr.close()
+
+#Sort by DESC
+def sortDESC():
+    #FINISH
+    listWr = open('list.txt', 'w')
+    listWr.close()
+
+createList("list.txt")
+listRead()
+listWrite("Aye | Wednesday | 01/02/2017")
+listWrite("V2 | Friday | 01/05/2017")
+remItem('Aye | Wednesday | 01/01/2017')
 #createList("1")
