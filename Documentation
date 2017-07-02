@@ -46,3 +46,26 @@ Next: GUI?
 5/9/17 later
 Added in createList function
 Working on V2, GUI right now
+
+6/8/17
+Set up Mac branch
+Set to track Mac branch
+
+Had to capitalize Tkinter for Mac
+
+6/28/17
+Back on this project
+Changed data structure to store date as well so that I can sort
+Next: Sorting, UI
+
+6/30/17
+Completed:
+  Store in .txt, format (Task | Day | Date) where | is the delimiter
+  Read
+  Write
+  Add
+  Remove
+  Sort ASC
+  Sort DESC
+Next:
+  UI through TKinter
