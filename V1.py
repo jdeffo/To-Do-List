@@ -1,3 +1,6 @@
+from datetime import datetime
+import datetime
+
 #global variables
 todoList = []
 
@@ -16,6 +19,14 @@ def listWrite(item):
     for line in todoList:
         listWr.write(line + "\n")
     listWr.write(item)
+    listWr.close()
+    listRead()
+
+#Write all
+def listWriteAll():
+    listWr = open('list.txt', 'w')
+    for line in todoList:
+        listWr.write(line + '\n')
     listWr.close()
     listRead()
 
@@ -39,19 +50,46 @@ def createList(name):
 
 #Sort by ASC
 def sortASC():
-    #FINISH
-    listWr = open('list.txt', 'w')
-    listWr.close()
+    #Get list of dates
+    print("SortDESC")
+    global todoList
+    dates = []
+    for line in todoList:
+        tempdate = line.split('|')[-1]
+        tempdate = tempdate.strip()
+        dates.append(tempdate)
+    #Sort Dates
+    dates = sorted(dates, key=lambda x: datetime.datetime.strptime(x, '%d/%m/%y'))
+    tempList = []
+    #Pair Dates w/ tasks
+    for date in dates:
+        for line in todoList:
+            tempdate = line.split('|')[-1]
+            tempdate = tempdate.strip()
+            if date == tempdate:
+                tempList.append(line)
+                remItem(line)
+                break;
+    #Set New list
+    todoList = tempList
+    print(todoList)
+    #Write New list
+    listWriteAll()
 
 #Sort by DESC
 def sortDESC():
-    #FINISH
-    listWr = open('list.txt', 'w')
-    listWr.close()
+    global todoList
+    #Sort ascending, and then reverse
+    sortASC()
+    todoList.reverse()
+    print(todoList)
+    listWriteAll()
 
 createList("list.txt")
 listRead()
-listWrite("Aye | Wednesday | 01/02/2017")
-listWrite("V2 | Friday | 01/05/2017")
-remItem('Aye | Wednesday | 01/01/2017')
+listWrite("Aye | Wednesday | 01/05/17")
+listWrite("V2 | Friday | 01/02/17")
+#remItem('Aye | Wednesday | 01/01/2017')
+sortASC()
+sortDESC()
 #createList("1")
