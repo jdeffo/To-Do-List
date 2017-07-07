@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 * Python - python.org
-..* TKinter
+⋅⋅* TKinter
 
 ```
 from Tkinter import *
@@ -61,10 +61,10 @@ Add additional notes about how to deploy this on a live system
 
 PC:
 * Python
-..* Tkinter
+⋅⋅* Tkinter
 Mac:
 * Python
-..* TKinter
+⋅⋅* TKinter
 iOS:
 * Swift
 
