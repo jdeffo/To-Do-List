@@ -69,3 +69,6 @@ Completed:
   Sort DESC
 Next:
   UI through TKinter
+
+7/06/17
+Refactored code to use PEP 8 best Python practices

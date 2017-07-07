@@ -1,2 +1,4 @@
-Aye | Wednesday | 01/05/17
-V2 | Friday | 01/02/17
+4 | Sunday | 01/07/17
+3 | Saturday | 01/06/17
+2 | Friday | 01/05/17
+1 | Wednesday | 01/02/17
