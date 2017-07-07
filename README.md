@@ -78,6 +78,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 * **Jeremy DeFossett**(http://www.jdeffo.com)
+* **[Jeremy DeFossett](http://www.jdeffo.com)**
 
 ## Acknowledgments
 
