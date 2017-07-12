@@ -1,6 +1,6 @@
 # To-Do-List
 
-A personal To-Do-List application that allows me to track my school work, personal projects, and everyday tasks.  To be implemented on PC, Mac, and iOS with syncranization across all devices.  The lists will be stored on my personal server, and read by the various applications.  Allows for multiple lists, sorting tasks, simple storage on server, and more features to come.
+A personal To-Do-List application that allows me to track and organize my school work, personal projects, and everyday tasks.  To be implemented on PC, Mac, and iOS with syncranization across all devices.  The lists will be stored on my personal server, and read by the various applications.  Allows for multiple lists, sorting tasks, organizing tasks, sending alerts, simple storage on server, and more features to come.
 
 ## Getting Started
 
