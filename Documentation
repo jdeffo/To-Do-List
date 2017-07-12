@@ -72,3 +72,22 @@ Next:
 
 7/06/17
 Refactored code to use PEP 8 best Python practices
+
+7/11/17
+Drawn inspiration from OmniFocus - Task management software my mentor showed me
+Want to include organization operations and alerts
+Inspiration:
+    Categories
+        Standard
+            All tasks
+            Inbox
+            School
+            Work
+        Create new
+    Priority tags
+        Organize by tags
+    Alerts
+        Email
+        Widget
+May need to change data structure from a .txt to something more structured,
+will look into this soon
