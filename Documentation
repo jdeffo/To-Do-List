@@ -91,3 +91,20 @@ Inspiration:
         Widget
 May need to change data structure from a .txt to something more structured,
 will look into this soon
+
+7/12/17
+Another idea:
+    -Recurring task reminder (pay credit card for example)
+        -Categorize these
+
+    New Overview of features:
+        Task list manager (Add, remove, sort, etc)
+        Categories
+            Pre-packaged and create new
+        Priority Tags
+        Alerts
+        Recurring tasks and alerts
+
+7/18/17
+Learning python extensively now
+Going to incorporate dictionaries
